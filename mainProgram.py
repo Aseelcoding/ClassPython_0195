@@ -14,3 +14,9 @@ class Rectangle:
        
             def __str__(self):
                return f"rectangle, {self.length} cm long, and {self.width} cm wide"
+
+if __name__ == "__main__":
+    rect = Rectangle(3, 2)
+    print(rect)
+    print("Circumference:", rect.circumference())
+    print("Area:", rect.area())
